@@ -22,6 +22,12 @@ public class FoodController : MonoBehaviour
         {
             statusControllerHealth.reduceHealth();
         }
+
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("EAT");
+            
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

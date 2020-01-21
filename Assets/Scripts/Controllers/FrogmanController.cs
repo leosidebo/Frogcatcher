@@ -11,6 +11,7 @@ public class FrogmanController : MonoBehaviour
     void Start()
     {
         // frogman = new Frogman(GetComponent<Rigidbody2D>());   
+
     }
 
     void FixedUpdate()
@@ -24,4 +25,5 @@ public class FrogmanController : MonoBehaviour
         frogman.changeVelocity();
         frogman.animateMovement(animator);
     }
+
 }
